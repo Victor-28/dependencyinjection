@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+    ServerName domain.local
+    ServerAlias www.domain.local
+
+    DocumentRoot /var/www/dependencyinjection/public
+    <Directory /var/www/dependencyinjection/public>
+        AllowOverride All
+        Order Allow,Deny
+        Allow from All
+    </Directory>
+</VirtualHost
