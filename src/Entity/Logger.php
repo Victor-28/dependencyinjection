@@ -21,3 +21,4 @@ class Logger
         return $this->id;
     }
 }
+

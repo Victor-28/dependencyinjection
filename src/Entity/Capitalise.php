@@ -1,23 +1,22 @@
 <?php
 
+
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\CapitaliseRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\TransformRepository")
  */
-class Capitalise
+class Capitalise implements Transform
 {
-    /**
-     * @ORM\Id()
-     * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
-     */
-    private $id;
-
-    public function getId(): ?int
+    public function transform($string): string
     {
-        return $this->id;
+        // TODO: Implement transform() method.
+        $lowerCaseString = strtolower($string);
+        $lowerCaseString = preg_replace_callback('/\w.?/', function ($m) {
+            return ucfirst($m[0]);
+        }, $lowerCaseString);
+        return $lowerCaseString;
     }
 }
