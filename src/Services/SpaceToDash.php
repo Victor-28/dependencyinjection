@@ -1,14 +1,14 @@
 <?php
 
 
-namespace App\Entity;
+namespace App\Services;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\SpaceToDashRepository")
  */
-class SpaceToDash implements Transform
+class SpaceToDash implements transform
 {
     public function transform($string): string
     {
@@ -17,3 +17,4 @@ class SpaceToDash implements Transform
         $dashedString = str_replace(' ', '-', $dashedString);
         return $dashedString;
     }
+}

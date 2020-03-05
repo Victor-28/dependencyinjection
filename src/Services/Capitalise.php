@@ -1,14 +1,12 @@
 <?php
-
-
-namespace App\Entity;
+namespace App\Services;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\TransformRepository")
  */
-class Capitalise implements Transform
+class Capitalise implements transform
 {
     public function transform($string): string
     {

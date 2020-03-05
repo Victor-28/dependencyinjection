@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3ef805-0c0f-4bde-b30c-30dcabb97e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/SpaceToDash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/Master.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Capitalise.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Capitalise.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Logger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/transform.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/transform.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/LoggerRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/LoggerRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TransformController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TransformController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Capitalise.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Capitalise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/SpaceToDash.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/SpaceToDash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/transform.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/transform.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,6 +142,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Services" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -164,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583333384916</updated>
       <workItem from="1583333389563" duration="3027000" />
-      <workItem from="1583394209255" duration="7259000" />
+      <workItem from="1583394209255" duration="11776000" />
     </task>
     <servers />
   </component>
