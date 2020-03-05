@@ -2,7 +2,7 @@
 
 
 // Declare the interface 'iTemplate'
-interface iTemplate
+interface Transform
 {
     public function transform($name, $var);
 
@@ -11,7 +11,7 @@ interface iTemplate
 
 // Implement the interface
 // This will work
-class Template implements iTemplate
+class Template
 {
     private $vars = array();
 
@@ -28,12 +28,18 @@ class Template implements iTemplate
 
         return $template;
     }
+
+    public function __construct($name, $var)
+    {
+    }
+
+
 }
 
 // This will not work
 // Fatal error: Class BadTemplate contains 1 abstract methods
 // and must therefore be declared abstract (iTemplate::getHtml)
-class BadTemplate implements iTemplate
+class BadTemplate
 {
     private $vars = array();
 
